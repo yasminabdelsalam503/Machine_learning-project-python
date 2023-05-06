@@ -1,0 +1,112 @@
+rev_Mean: laplace_asymmetric(kappa=0.51, loc=30.50, scale=17.45)
+
+mou_Mean: chi(df=0.73, loc=-0.00, scale=717.83)
+
+totmrc_Mean: dgamma(a=1.33, loc=42.14, scale=11.96)
+
+da_Mean: lomax(c=1.06, loc=-0.00, scale=0.01)
+
+ovrmou_Mean: fisk(c=0.80, loc=-0.00, scale=1.79)
+
+ovrrev_Mean: alpha(a=0.00, loc=-0.36, scale=0.54)
+
+vceovr_Mean: alpha(a=0.00, loc=-0.21, scale=0.30)
+
+datovr_Mean: pearson3(skew=2.27, loc=0.06, scale=0.07)
+
+roam_Mean: kappa3(a=2.79, loc=-0.00, scale=0.18)
+
+change_mou: gennorm(beta=0.56, loc=-0.00, scale=37.69)
+
+change_rev: johnsonsu(a=0.15, b=0.29, loc=-0.13, scale=0.42)
+
+drop_vce_Mean: chi(df=0.30, loc=-0.00, scale=10.08)
+
+drop_dat_Mean: wald(loc=-0.00, scale=0.01)
+
+blck_vce_Mean: exponweib(a=1.94, c=0.29, loc=-0.00, scale=0.07)
+
+blck_dat_Mean: halflogistic(loc=-0.00, scale=0.01)
+
+unan_vce_Mean: chi(df=0.35, loc=-0.00, scale=56.11)
+
+unan_dat_Mean: wald(loc=-0.00, scale=0.01)
+
+plcd_vce_Mean: gengamma(a=0.32, c=1.48, loc=-0.00, scale=347.78)
+
+plcd_dat_Mean: wald(loc=-0.06, scale=0.21)
+
+recv_vce_Mean: gengamma(a=0.45, c=0.72, loc=-0.00, scale=64.27)
+
+recv_sms_Mean: halflogistic(loc=-0.00, scale=0.01)
+
+comp_vce_Mean: nakagami(nu=0.22, loc=-0.00, scale=145.08)
+
+comp_dat_Mean: loguniform(a=0.14, b=2.45, loc=0.00, scale=0.27)
+
+custcare_Mean: burr12(c=0.66, d=2.63, loc=-0.00, scale=0.28)
+
+ccrndmou_Mean: johnsonsu(a=-9.91, b=0.52, loc=-0.01, scale=0.00)
+
+cc_mou_Mean: halfgennorm(beta=0.34, loc=-0.00, scale=0.01)
+
+inonemin_Mean: fisk(c=0.46, loc=-0.00, scale=2.01)
+
+threeway_Mean: halfgennorm(beta=0.34, loc=-0.00, scale=0.00)
+
+mou_cvce_Mean: nakagami(nu=0.20, loc=-0.00, scale=264.70)
+
+mou_cdat_Mean: pearson3(skew=2.29, loc=0.33, scale=0.37)
+
+mou_rvce_Mean: loguniform(a=0.00, b=25.69, loc=-0.06, scale=28.08)
+
+owylis_vce_Mean: burr12(c=0.62, d=0.45, loc=-0.00, scale=1.00)
+
+mouowylisv_Mean: loguniform(a=0.04, b=34.94, loc=-0.27, scale=6.25)
+
+iwylis_vce_Mean: burr12(c=0.72, d=1.42, loc=-0.00, scale=0.78)
+
+mouiwylisv_Mean: genpareto(c=2.51, loc=-0.00, scale=1.23)
+
+peak_vce_Mean: nakagami(nu=0.15, loc=-0.00, scale=145.69)
+
+peak_dat_Mean: gengamma(a=1.19, c=0.69, loc=-0.00, scale=0.04)
+
+mou_peav_Mean: chi(df=0.41, loc=-0.00, scale=310.10)
+
+mou_pead_Mean: wald(loc=-0.04, scale=0.15)
+
+opk_vce_Mean: nakagami(nu=0.16, loc=-0.00, scale=77.66)
+
+opk_dat_Mean: burr(c=5.57, d=0.10, loc=-0.00, scale=0.10)
+
+mou_opkv_Mean: gamma(a=0.38, loc=-0.00, scale=248.28)
+
+mou_opkd_Mean: pearson3(skew=2.32, loc=0.21, scale=0.24)
+
+drop_blk_Mean: chi(df=0.41, loc=-0.00, scale=16.61)
+
+attempt_Mean: gengamma(a=0.28, c=1.59, loc=-0.00, scale=335.80)
+
+complete_Mean: nakagami(nu=0.22, loc=-0.00, scale=145.98)
+
+callfwdv_Mean: genhalflogistic(c=0.00, loc=-0.00, scale=0.00)
+
+callwait_Mean: exponweib(a=1.84, c=0.22, loc=-0.00, scale=0.01)
+
+totmou: genexpon(a=0.60, b=1.19, c=7.81, loc=-0.00, scale=11190.98)
+
+totrev: exponnorm(K=3.97, loc=356.72, scale=157.92)
+
+adjrev: exponnorm(K=4.22, loc=289.73, scale=147.59)
+
+adjmou: genexpon(a=0.70, b=1.23, c=8.46, loc=-0.00, scale=11968.28)
+
+avgrev: laplace_asymmetric(kappa=0.50, loc=33.24, scale=15.33)
+
+avgmou: gamma(a=1.34, loc=-0.88, scale=342.33)
+
+avgqty: pearson3(skew=1.67, loc=162.15, scale=136.12)
+
+hnd_price: rdist(c=1.07, loc=-18.18, scale=168.17)
+
